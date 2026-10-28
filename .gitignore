@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
@@ -6,3 +7,22 @@ venv/
 .pytest_cache/
 .DS_Store
 *.egg-info/
+=======
+*.FASL
+*.fasl
+*.lisp-temp
+*.dfsl
+*.pfsl
+*.d64fsl
+*.p64fsl
+*.lx64fsl
+*.lx32fsl
+*.dx64fsl
+*.dx32fsl
+*.fx64fsl
+*.fx32fsl
+*.sx64fsl
+*.sx32fsl
+*.wx64fsl
+*.wx32fsl
+>>>>>>> fa9a6d1a2356d87c79ffbfd4a80ee1292889c541

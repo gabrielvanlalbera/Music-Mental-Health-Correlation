@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Music & Mental Health: association analysis and research-grade prediction
 
 An in-depth, fully reproducible analysis of the *Music & Mental Health* survey (736 respondents): which music genres and listening habits are associated with self-reported **anxiety, depression, insomnia and OCD**, how much of that is predictable, and which hypotheses deserve a controlled follow-up study.
@@ -90,3 +91,6 @@ Spearman associations with bootstrap CIs and Benjamini-Hochberg FDR; HC3-robust 
 ## Licence
 
 Code: MIT (see `LICENSE`).
+=======
+# Music-Mental-Health-Correlation
+>>>>>>> fa9a6d1a2356d87c79ffbfd4a80ee1292889c541
