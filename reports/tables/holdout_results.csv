@@ -1,0 +1,49 @@
+target,task,feature_set,model,metric,value,ci_lo,ci_hi
+Anxiety,regression,"baseline (age, hours)",ridge,R2,-0.0155,-0.1339,0.0815
+Anxiety,regression,"baseline (age, hours)",rf,R2,-0.0768,-0.2223,0.0478
+Anxiety,classification,"baseline (age, hours)",logistic,AUROC,0.5149,0.4218,0.609
+Anxiety,classification,"baseline (age, hours)",rf,AUROC,0.4896,0.3907,0.5844
+Anxiety,regression,habits + genres,ridge,R2,-0.0142,-0.1152,0.059
+Anxiety,regression,habits + genres,rf,R2,-0.0573,-0.2194,0.0615
+Anxiety,classification,habits + genres,logistic,AUROC,0.4857,0.3936,0.583
+Anxiety,classification,habits + genres,rf,AUROC,0.5029,0.4073,0.5975
+Anxiety,regression,habits + genres + categorical,ridge,R2,-0.0149,-0.1166,0.0602
+Anxiety,regression,habits + genres + categorical,rf,R2,-0.0664,-0.2253,0.0566
+Anxiety,classification,habits + genres + categorical,logistic,AUROC,0.4832,0.3868,0.5795
+Anxiety,classification,habits + genres + categorical,rf,AUROC,0.5212,0.4279,0.616
+Depression,regression,"baseline (age, hours)",ridge,R2,0.0346,-0.0403,0.0945
+Depression,regression,"baseline (age, hours)",rf,R2,0.0395,-0.0867,0.132
+Depression,classification,"baseline (age, hours)",logistic,AUROC,0.6168,0.5199,0.711
+Depression,classification,"baseline (age, hours)",rf,AUROC,0.5813,0.4861,0.6737
+Depression,regression,habits + genres,ridge,R2,0.0305,-0.0613,0.1077
+Depression,regression,habits + genres,rf,R2,0.0543,-0.0594,0.1435
+Depression,classification,habits + genres,logistic,AUROC,0.5702,0.4725,0.6693
+Depression,classification,habits + genres,rf,AUROC,0.5787,0.4873,0.6725
+Depression,regression,habits + genres + categorical,ridge,R2,0.0092,-0.0984,0.1023
+Depression,regression,habits + genres + categorical,rf,R2,0.0515,-0.0574,0.1364
+Depression,classification,habits + genres + categorical,logistic,AUROC,0.5506,0.4522,0.6523
+Depression,classification,habits + genres + categorical,rf,AUROC,0.5551,0.4587,0.6518
+Insomnia,regression,"baseline (age, hours)",ridge,R2,-0.0239,-0.1257,0.0371
+Insomnia,regression,"baseline (age, hours)",rf,R2,-0.0689,-0.1959,0.0235
+Insomnia,classification,"baseline (age, hours)",logistic,AUROC,0.5149,0.4063,0.6342
+Insomnia,classification,"baseline (age, hours)",rf,AUROC,0.513,0.4032,0.6266
+Insomnia,regression,habits + genres,ridge,R2,-0.0202,-0.1258,0.0441
+Insomnia,regression,habits + genres,rf,R2,-0.0141,-0.1301,0.0659
+Insomnia,classification,habits + genres,logistic,AUROC,0.5118,0.3951,0.6255
+Insomnia,classification,habits + genres,rf,AUROC,0.5183,0.3989,0.6328
+Insomnia,regression,habits + genres + categorical,ridge,R2,-0.0176,-0.1185,0.038
+Insomnia,regression,habits + genres + categorical,rf,R2,-0.0186,-0.1358,0.0641
+Insomnia,classification,habits + genres + categorical,logistic,AUROC,0.514,0.3989,0.6264
+Insomnia,classification,habits + genres + categorical,rf,AUROC,0.5287,0.4131,0.6357
+OCD,regression,"baseline (age, hours)",ridge,R2,0.0246,-0.0621,0.0826
+OCD,regression,"baseline (age, hours)",rf,R2,-0.0383,-0.1624,0.0504
+OCD,classification,"baseline (age, hours)",logistic,AUROC,0.6871,0.5061,0.8505
+OCD,classification,"baseline (age, hours)",rf,AUROC,0.5531,0.3769,0.7439
+OCD,regression,habits + genres,ridge,R2,0.0074,-0.0633,0.0487
+OCD,regression,habits + genres,rf,R2,-0.0815,-0.1906,-0.0065
+OCD,classification,habits + genres,logistic,AUROC,0.5236,0.3507,0.688
+OCD,classification,habits + genres,rf,AUROC,0.5813,0.4001,0.7796
+OCD,regression,habits + genres + categorical,ridge,R2,0.0068,-0.065,0.0491
+OCD,regression,habits + genres + categorical,rf,R2,-0.068,-0.1782,0.0102
+OCD,classification,habits + genres + categorical,logistic,AUROC,0.5574,0.4074,0.7081
+OCD,classification,habits + genres + categorical,rf,AUROC,0.4924,0.3345,0.662

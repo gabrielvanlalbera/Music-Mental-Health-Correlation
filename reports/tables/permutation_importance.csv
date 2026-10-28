@@ -1,0 +1,209 @@
+target,model,feature,mean,sd,frac_pos,stable
+Anxiety,rf,Age,0.09586,0.03979,1.0,True
+Anxiety,rf,BPM,0.00251,0.00739,0.7,False
+Anxiety,rf,Composer,0.0008,0.00162,0.8,True
+Anxiety,rf,Exploratory,0.00234,0.00331,0.7,False
+Anxiety,rf,Foreign languages,-0.00165,0.00461,0.6,False
+Anxiety,rf,Hours per day,0.00442,0.01877,0.8,True
+Anxiety,rf,Instrumentalist,0.00022,0.00218,0.5,False
+Anxiety,rf,While working,-0.00188,0.001,0.0,False
+Anxiety,rf,bpm_missing,-0.00094,0.00158,0.3,False
+Anxiety,rf,freq_Classical,0.00335,0.00611,0.7,False
+Anxiety,rf,freq_Country,-0.00156,0.00393,0.4,False
+Anxiety,rf,freq_EDM,-0.00047,0.00397,0.5,False
+Anxiety,rf,freq_Folk,0.02582,0.01447,1.0,True
+Anxiety,rf,freq_Gospel,-0.00068,0.00252,0.3,False
+Anxiety,rf,freq_Hip hop,0.00029,0.00446,0.7,False
+Anxiety,rf,freq_Jazz,-0.00021,0.00335,0.6,False
+Anxiety,rf,freq_K pop,-0.001,0.00146,0.3,False
+Anxiety,rf,freq_Latin,0.00044,0.00268,0.6,False
+Anxiety,rf,freq_Lofi,-0.00149,0.0075,0.6,False
+Anxiety,rf,freq_Metal,0.00328,0.00238,0.8,True
+Anxiety,rf,freq_Pop,-0.00018,0.00898,0.7,False
+Anxiety,rf,freq_R&B,0.00092,0.00372,0.5,False
+Anxiety,rf,freq_Rap,-0.00189,0.00343,0.3,False
+Anxiety,rf,freq_Rock,0.00795,0.01012,0.7,False
+Anxiety,rf,freq_Video game music,0.00019,0.00513,0.6,False
+Anxiety,rf,genre_diversity,-0.00203,0.00518,0.4,False
+Anxiety,ridge,Age,0.02425,0.0163,0.9,True
+Anxiety,ridge,BPM,-0.00064,0.0033,0.6,False
+Anxiety,ridge,Composer,-0.00074,0.00149,0.2,False
+Anxiety,ridge,Exploratory,0.00414,0.0035,0.9,True
+Anxiety,ridge,Foreign languages,0.00058,0.00586,0.7,False
+Anxiety,ridge,Hours per day,0.00156,0.00309,0.7,False
+Anxiety,ridge,Instrumentalist,-0.0002,0.00224,0.4,False
+Anxiety,ridge,While working,-0.00197,0.0028,0.2,False
+Anxiety,ridge,bpm_missing,-0.00241,0.00194,0.0,False
+Anxiety,ridge,freq_Classical,0.00194,0.00851,0.7,False
+Anxiety,ridge,freq_Country,-0.00273,0.00339,0.1,False
+Anxiety,ridge,freq_EDM,-0.0021,0.00323,0.4,False
+Anxiety,ridge,freq_Folk,0.01578,0.01288,0.9,True
+Anxiety,ridge,freq_Gospel,-0.00238,0.00752,0.6,False
+Anxiety,ridge,freq_Hip hop,-0.00068,0.00152,0.5,False
+Anxiety,ridge,freq_Jazz,-0.00169,0.00285,0.3,False
+Anxiety,ridge,freq_K pop,-0.00107,0.002,0.3,False
+Anxiety,ridge,freq_Latin,0.00013,0.00301,0.8,True
+Anxiety,ridge,freq_Lofi,0.00218,0.00513,0.7,False
+Anxiety,ridge,freq_Metal,-0.00095,0.00176,0.3,False
+Anxiety,ridge,freq_Pop,0.00227,0.00511,0.8,True
+Anxiety,ridge,freq_R&B,0.00056,0.00606,0.6,False
+Anxiety,ridge,freq_Rap,-0.00159,0.00267,0.2,False
+Anxiety,ridge,freq_Rock,0.00166,0.00233,0.9,True
+Anxiety,ridge,freq_Video game music,0.00296,0.00827,0.8,True
+Anxiety,ridge,genre_diversity,-0.00137,0.00627,0.6,False
+Depression,rf,Age,0.03001,0.01563,1.0,True
+Depression,rf,BPM,-0.00316,0.00382,0.2,False
+Depression,rf,Composer,-0.00077,0.00239,0.5,False
+Depression,rf,Exploratory,-0.00082,0.00171,0.3,False
+Depression,rf,Foreign languages,-0.00147,0.00372,0.5,False
+Depression,rf,Hours per day,-0.0001,0.0069,0.6,False
+Depression,rf,Instrumentalist,0.00018,0.00193,0.5,False
+Depression,rf,While working,-0.001,0.00187,0.4,False
+Depression,rf,bpm_missing,0.00013,0.00151,0.7,False
+Depression,rf,freq_Classical,-0.00408,0.00332,0.0,False
+Depression,rf,freq_Country,0.00091,0.00706,0.7,False
+Depression,rf,freq_EDM,0.00308,0.00796,0.7,False
+Depression,rf,freq_Folk,0.00777,0.00801,0.7,False
+Depression,rf,freq_Gospel,-0.00117,0.00151,0.3,False
+Depression,rf,freq_Hip hop,0.01887,0.03524,0.7,False
+Depression,rf,freq_Jazz,0.00058,0.00361,0.4,False
+Depression,rf,freq_K pop,-0.00157,0.0034,0.3,False
+Depression,rf,freq_Latin,0.00016,0.00231,0.7,False
+Depression,rf,freq_Lofi,0.00091,0.00206,0.8,True
+Depression,rf,freq_Metal,0.00623,0.00679,0.9,True
+Depression,rf,freq_Pop,-0.00147,0.00318,0.5,False
+Depression,rf,freq_R&B,-0.00164,0.00308,0.3,False
+Depression,rf,freq_Rap,-7e-05,0.01328,0.4,False
+Depression,rf,freq_Rock,0.00565,0.01097,0.8,True
+Depression,rf,freq_Video game music,-0.00162,0.00354,0.3,False
+Depression,rf,genre_diversity,8e-05,0.00914,0.6,False
+Depression,ridge,Age,0.00785,0.01291,0.8,True
+Depression,ridge,BPM,0.00069,0.00117,0.6,False
+Depression,ridge,Composer,-0.00071,0.00268,0.4,False
+Depression,ridge,Exploratory,-0.00154,0.00178,0.0,False
+Depression,ridge,Foreign languages,0.00216,0.00535,0.7,False
+Depression,ridge,Hours per day,0.00479,0.00554,0.7,False
+Depression,ridge,Instrumentalist,-0.00212,0.00246,0.1,False
+Depression,ridge,While working,-0.00295,0.00406,0.3,False
+Depression,ridge,bpm_missing,0.00104,0.00447,0.7,False
+Depression,ridge,freq_Classical,-0.00201,0.00313,0.4,False
+Depression,ridge,freq_Country,0.00069,0.00843,0.5,False
+Depression,ridge,freq_EDM,-0.0006,0.00334,0.3,False
+Depression,ridge,freq_Folk,0.015,0.00949,1.0,True
+Depression,ridge,freq_Gospel,-0.00208,0.00403,0.1,False
+Depression,ridge,freq_Hip hop,0.00213,0.01139,0.5,False
+Depression,ridge,freq_Jazz,-0.00099,0.00196,0.5,False
+Depression,ridge,freq_K pop,0.00349,0.00781,0.8,True
+Depression,ridge,freq_Latin,-0.00161,0.00207,0.3,False
+Depression,ridge,freq_Lofi,-0.00037,0.00153,0.5,False
+Depression,ridge,freq_Metal,0.0049,0.00573,0.8,True
+Depression,ridge,freq_Pop,-0.00136,0.00337,0.3,False
+Depression,ridge,freq_R&B,-0.00013,0.00578,0.5,False
+Depression,ridge,freq_Rap,-0.00062,0.00703,0.4,False
+Depression,ridge,freq_Rock,0.01936,0.00928,1.0,True
+Depression,ridge,freq_Video game music,0.00052,0.00163,0.7,False
+Depression,ridge,genre_diversity,-0.00016,0.00893,0.6,False
+Insomnia,rf,Age,0.01502,0.01383,0.9,True
+Insomnia,rf,BPM,0.00685,0.01403,0.7,False
+Insomnia,rf,Composer,-4e-05,0.00276,0.5,False
+Insomnia,rf,Exploratory,-0.00097,0.00774,0.7,False
+Insomnia,rf,Foreign languages,-0.00046,0.00326,0.5,False
+Insomnia,rf,Hours per day,0.0317,0.01838,0.9,True
+Insomnia,rf,Instrumentalist,-0.00057,0.00156,0.4,False
+Insomnia,rf,While working,-0.00124,0.00115,0.0,False
+Insomnia,rf,bpm_missing,-0.00022,0.00061,0.4,False
+Insomnia,rf,freq_Classical,-4e-05,0.00543,0.5,False
+Insomnia,rf,freq_Country,0.00148,0.00455,0.8,True
+Insomnia,rf,freq_EDM,0.00232,0.0049,0.8,True
+Insomnia,rf,freq_Folk,0.00238,0.00568,0.7,False
+Insomnia,rf,freq_Gospel,-0.00046,0.00259,0.5,False
+Insomnia,rf,freq_Hip hop,-0.00132,0.00541,0.4,False
+Insomnia,rf,freq_Jazz,-0.00023,0.0022,0.3,False
+Insomnia,rf,freq_K pop,-0.00146,0.00155,0.1,False
+Insomnia,rf,freq_Latin,-0.00047,0.0031,0.5,False
+Insomnia,rf,freq_Lofi,-0.0011,0.0049,0.5,False
+Insomnia,rf,freq_Metal,0.01547,0.01333,0.9,True
+Insomnia,rf,freq_Pop,-0.0013,0.0029,0.2,False
+Insomnia,rf,freq_R&B,-0.00093,0.00472,0.4,False
+Insomnia,rf,freq_Rap,0.0002,0.00541,0.7,False
+Insomnia,rf,freq_Rock,-0.00111,0.00712,0.7,False
+Insomnia,rf,freq_Video game music,-0.00104,0.00451,0.4,False
+Insomnia,rf,genre_diversity,0.00495,0.00558,0.8,True
+Insomnia,ridge,Age,-0.00065,0.00277,0.6,False
+Insomnia,ridge,BPM,0.00307,0.00335,0.8,True
+Insomnia,ridge,Composer,0.0061,0.00807,0.9,True
+Insomnia,ridge,Exploratory,-0.00197,0.01043,0.4,False
+Insomnia,ridge,Foreign languages,-0.00118,0.00159,0.1,False
+Insomnia,ridge,Hours per day,0.0148,0.00784,1.0,True
+Insomnia,ridge,Instrumentalist,-0.00059,0.00079,0.1,False
+Insomnia,ridge,While working,-0.00228,0.00326,0.0,False
+Insomnia,ridge,bpm_missing,0.00018,0.00103,0.7,False
+Insomnia,ridge,freq_Classical,0.00346,0.00354,0.9,True
+Insomnia,ridge,freq_Country,0.00052,0.00664,0.7,False
+Insomnia,ridge,freq_EDM,0.00249,0.00459,0.9,True
+Insomnia,ridge,freq_Folk,-0.00042,0.00078,0.3,False
+Insomnia,ridge,freq_Gospel,-0.00152,0.00293,0.3,False
+Insomnia,ridge,freq_Hip hop,-0.00162,0.00257,0.2,False
+Insomnia,ridge,freq_Jazz,-0.00085,0.00122,0.2,False
+Insomnia,ridge,freq_K pop,0.00012,0.00081,0.3,False
+Insomnia,ridge,freq_Latin,-0.00053,0.00257,0.6,False
+Insomnia,ridge,freq_Lofi,0.0004,0.00295,0.6,False
+Insomnia,ridge,freq_Metal,0.01484,0.00777,1.0,True
+Insomnia,ridge,freq_Pop,0.00014,0.00406,0.6,False
+Insomnia,ridge,freq_R&B,-0.00095,0.00216,0.6,False
+Insomnia,ridge,freq_Rap,-0.00144,0.00185,0.0,False
+Insomnia,ridge,freq_Rock,0.00493,0.00646,0.8,True
+Insomnia,ridge,freq_Video game music,0.0013,0.00393,0.8,True
+Insomnia,ridge,genre_diversity,-0.00092,0.00157,0.4,False
+OCD,rf,Age,0.02328,0.01627,0.9,True
+OCD,rf,BPM,-0.00476,0.01027,0.4,False
+OCD,rf,Composer,0.00069,0.00118,0.8,True
+OCD,rf,Exploratory,0.00155,0.00273,0.7,False
+OCD,rf,Foreign languages,0.00178,0.00607,0.8,True
+OCD,rf,Hours per day,0.01568,0.0063,1.0,True
+OCD,rf,Instrumentalist,-0.00108,0.00156,0.3,False
+OCD,rf,While working,-0.00172,0.00392,0.4,False
+OCD,rf,bpm_missing,-0.00175,0.00191,0.1,False
+OCD,rf,freq_Classical,-0.00216,0.00216,0.1,False
+OCD,rf,freq_Country,0.0107,0.01159,0.7,False
+OCD,rf,freq_EDM,0.01249,0.01098,0.8,True
+OCD,rf,freq_Folk,0.00022,0.00583,0.5,False
+OCD,rf,freq_Gospel,0.00243,0.00593,0.7,False
+OCD,rf,freq_Hip hop,0.00065,0.00472,0.6,False
+OCD,rf,freq_Jazz,-0.00107,0.00323,0.3,False
+OCD,rf,freq_K pop,-0.00149,0.00388,0.5,False
+OCD,rf,freq_Latin,0.00055,0.00268,0.5,False
+OCD,rf,freq_Lofi,0.00019,0.00606,0.7,False
+OCD,rf,freq_Metal,0.00238,0.00271,0.8,True
+OCD,rf,freq_Pop,-0.00012,0.0024,0.4,False
+OCD,rf,freq_R&B,0.00166,0.00755,0.7,False
+OCD,rf,freq_Rap,-0.00105,0.0036,0.4,False
+OCD,rf,freq_Rock,-0.00101,0.00717,0.4,False
+OCD,rf,freq_Video game music,-0.00076,0.00325,0.3,False
+OCD,rf,genre_diversity,-0.00175,0.00462,0.3,False
+OCD,ridge,Age,0.01225,0.0044,1.0,True
+OCD,ridge,BPM,-0.0018,0.00201,0.2,False
+OCD,ridge,Composer,0.00023,0.00067,0.6,False
+OCD,ridge,Exploratory,-0.00049,0.00087,0.4,False
+OCD,ridge,Foreign languages,0.00054,0.00362,0.7,False
+OCD,ridge,Hours per day,0.00591,0.00411,0.9,True
+OCD,ridge,Instrumentalist,-0.00041,0.00059,0.3,False
+OCD,ridge,While working,-0.00073,0.00327,0.8,False
+OCD,ridge,bpm_missing,-0.0009,0.00145,0.2,False
+OCD,ridge,freq_Classical,-0.00058,0.00056,0.0,False
+OCD,ridge,freq_Country,0.00351,0.00446,0.8,True
+OCD,ridge,freq_EDM,0.00613,0.00473,1.0,True
+OCD,ridge,freq_Folk,-0.00053,0.00345,0.6,False
+OCD,ridge,freq_Gospel,-0.00017,0.00093,0.6,False
+OCD,ridge,freq_Hip hop,-0.00048,0.00121,0.4,False
+OCD,ridge,freq_Jazz,0.00072,0.00182,0.6,False
+OCD,ridge,freq_K pop,-7e-05,0.00277,0.6,False
+OCD,ridge,freq_Latin,-0.00049,0.00291,0.6,False
+OCD,ridge,freq_Lofi,0.00027,0.00341,0.6,False
+OCD,ridge,freq_Metal,-0.00016,0.00097,0.2,False
+OCD,ridge,freq_Pop,-0.00109,0.00206,0.5,False
+OCD,ridge,freq_R&B,-0.00179,0.00447,0.5,False
+OCD,ridge,freq_Rap,-0.00042,0.00145,0.5,False
+OCD,ridge,freq_Rock,-0.00286,0.00516,0.1,False
+OCD,ridge,freq_Video game music,-0.00045,0.00055,0.3,False
+OCD,ridge,genre_diversity,-0.00026,0.00167,0.6,False

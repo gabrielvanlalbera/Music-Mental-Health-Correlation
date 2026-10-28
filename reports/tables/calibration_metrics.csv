@@ -1,0 +1,13 @@
+target,model,brier,brier_skill,auroc
+Anxiety,logistic,0.2531,-0.0135,0.5485
+Anxiety,rf,0.24,0.0393,0.6085
+Anxiety,rf + sigmoid calibration,0.2381,0.0469,0.6212
+Depression,logistic,0.2248,0.0103,0.572
+Depression,rf,0.2171,0.0442,0.633
+Depression,rf + sigmoid calibration,0.219,0.0356,0.6263
+Insomnia,logistic,0.1737,0.0129,0.5918
+Insomnia,rf,0.1717,0.0244,0.6201
+Insomnia,rf + sigmoid calibration,0.1725,0.0194,0.6204
+OCD,logistic,0.1351,-0.0816,0.4928
+OCD,rf,0.1291,-0.034,0.4693
+OCD,rf + sigmoid calibration,0.1251,-0.0018,0.5
